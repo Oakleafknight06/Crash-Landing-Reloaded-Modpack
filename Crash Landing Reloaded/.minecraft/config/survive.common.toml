@@ -1,0 +1,37 @@
+
+[sleep]
+	#Disabling this will disable this mods sleep management system
+	"Enable Sleep" = true
+	#Disabling this will disable the color changing of the screen when you need sleep
+	"Enable Tired Overlay" = true
+
+[thirst]
+	#Disabling this will disable this mods thirst system
+	"Enable Thirst" = true
+	#This list defines which items replenish thirst when consumed
+	#Items int this list will give the chilled effect when drunk
+	#Example: "minecraft:beetroot_soup,1"
+	"Water Containers (Chilled)" = ["minecraft:beetroot_soup,1"]
+	#This list defines which items replenish thirst when consumed
+	#Items int this list will not give any extra effects
+	#Items int this list will not give any extra effects
+	#Example: "minecraft:mushroom_stew,1"
+	"Water Containers" = ["minecraft:mushroom_stew,1"]
+	#This list defines which items replenish thirst when consumed
+	#Items int this list will give the heated effect when drunk
+	#Example: "minecraft:rabbit_stew,1"
+	"Water Containers (Heated)" = ["minecraft:rabbit_stew,1"]
+	#This list defines which items replenish thirst when consumed
+	#Items int this list will randomly give the thirst effect when drunk
+	#Example: "minecraft:honey_bottle,1"
+	"Water Containers (Thirst)" = ["minecraft:honey_bottle,1"]
+
+[temperature]
+	#Disabling this will prevent players from sleeping if they have hyperthermia or hypothermia
+	"Enable Hypothermia/Hyperthermia Allow Sleep" = false
+	#Disabling this will disable this mods temperature system
+	"Enable Temperature" = true
+
+[developerOptions]
+	debug_mode = false
+

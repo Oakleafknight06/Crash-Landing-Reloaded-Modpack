@@ -1,0 +1,11 @@
+
+[temperature]
+	#The x offset from the center of the screen where the temperature should render
+	#Range: -200 ~ 200
+	"Temperature X Offset" = 65
+	#The y offset from the top of the screen where the temperature should render
+	#Range: -200 ~ 200
+	"Temperature Y Offset" = 5
+	#If disabled, the actual temperature value will render on your screen
+	"Display Bar" = true
+
